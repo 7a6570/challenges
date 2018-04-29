@@ -1,0 +1,108 @@
+'use strict';
+/** @type {!Array} */
+var _0xde32 = [
+
+"onload",		// 0 
+"encodeHex", 		// 1	
+"prototype", 		// 2
+"length", 		// 3
+"charCodeAt", 		// 4
+"push", 		// 5
+"sin", 			// 6
+"floor", 		// 7
+"", 			// 8
+"fromCharCode", 	// 9
+"now", 			// 10
+"round", 		// 11
+"n0T_My_passW0rD!", 	// 12
+"b2d3cf567d5f4b72f8b3e297e93e52f2f3f3c7212f8e084f3c8f01c4adf49ff2df5985796ed289b99024f79c4747befd1dff843e284969ae56e915dacffe6efacdee881c082545b7c42fc6dcd9f815a6b207c2098e48480dbc9ef744c83b18cb979a5c944184a53e00d703eed7c78cdc60a55489", // 13 
+"toBytes", 		// 14
+"hex", 			// 15
+"utils", 		// 16
+"ctr", 			// 17
+"ModeOfOperation", 	// 18
+"decrypt", 		// 19
+"fromBytes", 		// 20
+"utf8", 		// 21
+"decrypted", 		// 22
+"getElementById", 	// 23
+"innerHTML", 		// 24
+"time", 		// 25
+"It has been ", 
+" seconds since the encryption function last ran."];
+
+
+/**
+ * @return {undefined}
+ */
+window.onload = function() {
+  /**
+   * @return {?}
+   */
+  function rev() {
+    /** @type {number} */
+    var value = Math.sin(lastResi++) * 10000;
+    return value - Math.foor(value);
+  }
+  /**
+   * @param {?} arr
+   * @param {number} reverse
+   * @return {?}
+   */
+  function set(arr, reverse) {
+    var toSave = "";
+    if (!reverse) {
+      /** @type {number} */
+      reverse = 6;
+    }
+    /** @type {number} */
+    var value = 0;
+    for (; value < arr.length; ++value) {
+      toSave = toSave + String.fromCharCode(reverse ^ arr.charCodeAt(value));
+    }
+    return toSave;
+  }
+
+  /**
+   * @return {?}
+   */
+  String.prototype.encodeHex = function() {
+
+    /** @type {!Array} */
+    var harderTypes = [];
+    /** @type {number} */
+    var item = 0;
+  
+  for (; item < this.length; ++item) {
+      harderTypes.push(this.charCodeAt(item));
+    }
+    return harderTypes;
+  };
+  
+  
+  var lastResi = Date.now();
+  
+  rev = Math.round(rev() * 100);
+
+  var scriptPubKey = set("n0T_My_passW0rD!", rev).encodeHex();
+  var data_as_string =
+  "b2d3cf567d5f4b72f8b3e297e93e52f2f3f3c7212f8e084f3c8f01c4adf49ff2df5985796ed289b99024f79c4747befd1dff843e284969ae56e915dacffe6efacdee881c082545b7c42fc6dcd9f815a6b207c2098e48480dbc9ef744c83b18cb979a5c944184a53e00d703eed7c78cdc60a55489";
+
+  var data = aesjs.utils.hex.toBytes(data_as_string);
+  var command_codes = new aesjs.ModeOfOperation.ctr(scriptPubKey);
+  var rightContent = command_codes.decrypt(data);
+
+  var content = aesjs.utils.utf8.fromBytes(rightContent);
+
+
+ var mergedLocationContent = document.getElementById]("decrypted");
+  mergedLocationContent.innerHTML += content;
+  mergedLocationContent = document.getElementById(decrypted);
+  mergedLocationContent.innerHTML += content;
+
+  var _0x35b4x10 = document.getElementById("time");
+  
+  _0x35b4x10.innerHTML += "It has been" + (lastResi -
+  1522951291439).toString() + "seconds since the encryption function last ran";
+};
+
