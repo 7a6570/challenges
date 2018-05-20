@@ -1,0 +1,28 @@
+FLAG: ThisisDefinitelyNotaTROLL
+
+Otherwise:
+
+                  .-'''/.\
+                 (_.--'  |
+                  |  ==  |
+             o-._ .--..--. _.-o
+                 |   ||   |
+                  ;--|`--:
+                  |. |   |
+                  |  ;_ .|
+                  |_____ |
+                 /|     '|\
+                 //`----'\\
+                ////|  |  \\
+                /   |  |    \
+                   /|  |\
+                  / \  / \
+                 /   \/   \
+                /          \
+                |          |
+               ||    /\    ||
+               ||   ,  .   ||
+               [[   NOPE!  ]]
+
+
+Solved by setting $RIP to right address ;-)
